@@ -33,7 +33,7 @@ _Avoid_: Client, buyer, account
 
 **Single context (most repos):** One `DOMAIN.md` at the repo root.
 
-**Multiple contexts:** A `GLOSSARY-MAP.md` at the repo root lists the contexts, where they live, and how they relate to each other:
+**Multiple contexts:** A `DOMAIN-MAP.md` at the repo root lists the contexts, where they live, and how they relate to each other:
 
 ```md
 # Glossary Map
@@ -53,7 +53,7 @@ _Avoid_: Client, buyer, account
 
 The skill infers which structure applies:
 
-- If `GLOSSARY-MAP.md` exists, read it to find contexts
+- If `DOMAIN-MAP.md` exists, read it to find contexts
 - If only a root `DOMAIN.md` exists, single context
 - If neither exists, create a root `DOMAIN.md` lazily when the first term is resolved
 

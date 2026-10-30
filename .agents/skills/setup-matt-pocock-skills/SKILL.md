@@ -22,7 +22,7 @@ Look at the current repo to understand its starting state. Read whatever exists;
 
 - `git remote -v` and `.git/config`: is this a GitHub repo? Which one?
 - `AGENTS.md` and `CLAUDE.md` at the repo root: does either exist? Is there already an `## Agent skills` section in either?
-- `DOMAIN.md` and `GLOSSARY-MAP.md` at the repo root, and the legacy `CONTEXT.md` / `CONTEXT-MAP.md`. If a legacy file exists, offer to `git mv` it to its `DOMAIN.md` or `GLOSSARY-MAP.md` name and rewrite those names in `docs/agents/domain.md`.
+- `DOMAIN.md` and `DOMAIN-MAP.md` at the repo root, and the legacy `CONTEXT.md` / `CONTEXT-MAP.md`. If a legacy file exists, offer to `git mv` it to its `DOMAIN.md` or `DOMAIN-MAP.md` name and rewrite those names in `docs/agents/domain.md`.
 - `docs/adr/` and any `src/*/docs/adr/` directories
 - `docs/agents/`: does this skill's prior output already exist?
 - `.scratch/`: a sign that a local-markdown issue tracker convention is already in use
@@ -60,7 +60,7 @@ The defaults are the five canonical roles, each label string equal to its name: 
 
 **Section C: Domain docs.** Default to **single-context** (one `DOMAIN.md` + `docs/adr/` at the repo root). This fits almost every repo; write it without asking.
 
-Offer **multi-context** (a root `GLOSSARY-MAP.md` pointing to per-context `DOMAIN.md` files) only when exploration found monorepo signals. Then confirm which layout they want.
+Offer **multi-context** (a root `DOMAIN-MAP.md` pointing to per-context `DOMAIN.md` files) only when exploration found monorepo signals. Then confirm which layout they want.
 
 ### 3. Confirm and edit
 

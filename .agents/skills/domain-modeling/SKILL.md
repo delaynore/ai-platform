@@ -21,11 +21,11 @@ Most repos have a single context:
 └── src/
 ```
 
-If a `GLOSSARY-MAP.md` exists at the root, the repo has multiple contexts. The map points to where each one lives:
+If a `DOMAIN-MAP.md` exists at the root, the repo has multiple contexts. The map points to where each one lives:
 
 ```
 /
-├── GLOSSARY-MAP.md
+├── DOMAIN-MAP.md
 ├── docs/
 │   └── adr/                          ← system-wide decisions
 ├── src/
