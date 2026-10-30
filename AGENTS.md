@@ -11,5 +11,5 @@ Use the five roles defined in `docs/agents/triage-labels.md`.
 
 ### Domain docs
 
-This repository uses one domain context.
+This repository uses one domain context with terms defined in `DOMAIN.md`.
 Read `docs/agents/domain.md` before exploring the project.
