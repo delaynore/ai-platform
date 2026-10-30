@@ -32,6 +32,23 @@ Any other use of `delaynore` requires explicit permission for that specific acti
 6. Request review from `delaynore` when opening the PR.
 7. Report the PR link and verification results to the owner.
 
+## Address review feedback
+
+When the owner reports review feedback, read PR reviews, inline threads, and general PR comments before making changes.
+Process every actionable comment, including feedback left without approval or a formal change request.
+
+1. Read the comment and inspect the relevant code or documentation.
+2. If the feedback is valid, implement the correction and run appropriate checks.
+3. If you disagree, explain your reasoning with concrete evidence and propose an alternative when useful.
+4. Commit and push corrections to the existing PR branch.
+5. Reply to each actionable comment in its original thread.
+6. Include the correction's commit and verification results, or the evidence supporting your disagreement.
+7. Request another review from `delaynore` after pushing corrections.
+
+Reply to review questions even when no file changes are needed.
+Keep disputed feedback open for the owner's decision.
+Wait for approval of the updated PR head before merging.
+
 ## Merge and synchronize
 
 The owner authorizes this workflow: after approval, merge the PR, delete its branch, and update the local default branch.

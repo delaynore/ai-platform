@@ -7,4 +7,4 @@ Before proposing or implementing features, read `customer-requirements.md`.
 - Before exploring domain concepts or decisions, read `docs/agents/domain.md`.
 - Before working with issues, read `docs/agents/issue-tracker.md`.
 - Before triaging issues, read `docs/agents/triage-labels.md`.
-- Before creating branches, opening PRs, or merging changes, read `docs/agents/pull-requests.md`.
+- Before creating branches, handling PRs or review feedback, or merging changes, read `docs/agents/pull-requests.md`.
