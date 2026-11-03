@@ -21,6 +21,9 @@ The first version will help developers join a project:
 
 See [customer-requirements.md](customer-requirements.md) for detailed requirements and possible future directions.
 
+The agreed [first-version scope](docs/first-version.md) defers GitHub account linking and repository permission management.
+This version revokes access to platform information; repository access remains managed outside the platform.
+
 ## Getting started
 
 Clone the repository:
