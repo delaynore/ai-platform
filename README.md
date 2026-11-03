@@ -39,8 +39,6 @@ Setup, run, and verification commands will be added here with the application co
 - The default branch is `master`.
 - Prepare changes on separate branches and submit pull requests.
 - Follow the [review and merge workflow](docs/agents/pull-requests.md).
-- Keep secrets in local `.env` files.
-- Document environment variables in `.env.example` without secret values.
 
 ## Agent instructions
 
