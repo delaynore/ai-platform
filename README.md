@@ -1,54 +1,54 @@
 # AI Platform
 
-Платформа для совместной работы сотрудников и агентов. Она должна объединить проекты, репозитории, инструкции и доступы компании.
+A platform for employees and agents to work together. It will bring company projects, repositories, instructions, and access management into one place.
 
-## Состояние проекта
+## Project status
 
-Проект находится на этапе подготовки к разработке. В репозитории есть требования заказчика, инструкции для агентов и базовые настройки Git.
+The project is being prepared for development. The repository contains customer requirements, agent instructions, and basic Git configuration.
 
-Технологический стек, архитектура и способ подключения агента пока не выбраны. Код приложения, сборка, тесты и CI ещё не добавлены.
+The technology stack, architecture, and agent connection method have not been selected. Application code, build tooling, tests, and CI are not available yet.
 
-## Первая версия
+## First version
 
-Первая версия должна помочь разработчику подключиться к проекту:
+The first version will help developers join a project:
 
-- Сотрудник входит в платформу по приглашению.
-- Проект объединяет репозитории GitHub и инструкции для работы.
-- Сотрудник и его агент получают доступ только к разрешённым проектам.
-- Агент готовит рабочее окружение по инструкциям проекта и проверяет доступ к репозиториям.
-- При уходе сотрудника платформа отзывает его доступ и прекращает выдавать данные его агенту.
-- Отдельный модуль интеграций подключает внешние сервисы. Первой интеграцией станет GitHub.
+- Employees join the platform by invitation.
+- Projects group GitHub repositories and work instructions.
+- Employees and their agents can access only authorized projects.
+- Agents prepare the development environment from project instructions and check repository access.
+- When an employee leaves, the platform revokes their access and stops providing company data to their agent.
+- A separate integrations module connects external services. GitHub will be the first integration.
 
-Подробные требования и возможные направления развития описаны в [customer-requirements.md](customer-requirements.md).
+See [customer-requirements.md](customer-requirements.md) for detailed requirements and possible future directions.
 
-## Начало работы
+## Getting started
 
-Склонируйте репозиторий:
+Clone the repository:
 
 ```sh
 git clone https://github.com/delaynore/ai-platform.git
 cd ai-platform
 ```
 
-Перед планированием изменений прочитайте [требования заказчика](customer-requirements.md).
+Read the [customer requirements](customer-requirements.md) before planning changes.
 
-Команды установки, запуска и проверки появятся здесь вместе с кодом приложения.
+Setup, run, and verification commands will be added here with the application code.
 
-## Работа с репозиторием
+## Working with the repository
 
-- Основная ветка — `master`.
-- Готовьте изменения в отдельных ветках через pull requests.
-- Следуйте [процессу проверки и слияния изменений](docs/agents/pull-requests.md).
-- Храните секреты в локальных `.env`-файлах.
-- Описывайте переменные окружения в `.env.example` без секретных значений.
+- The default branch is `master`.
+- Prepare changes on separate branches and submit pull requests.
+- Follow the [review and merge workflow](docs/agents/pull-requests.md).
+- Keep secrets in local `.env` files.
+- Document environment variables in `.env.example` without secret values.
 
-## Инструкции для агентов
+## Agent instructions
 
-[AGENTS.md](AGENTS.md) задаёт правила работы агента в этом репозитории.
+[AGENTS.md](AGENTS.md) defines the rules for agents working in this repository.
 
-- [Предметная область](docs/agents/domain.md) — термины проекта и архитектурные решения.
-- [Трекер задач](docs/agents/issue-tracker.md) — работа с GitHub Issues.
-- [Метки задач](docs/agents/triage-labels.md) — состояния задач.
-- [Процесс PR](docs/agents/pull-requests.md) — учётная запись агента, проверка и слияние изменений.
+- [Domain documentation](docs/agents/domain.md) covers project terms and architectural decisions.
+- [Issue tracker](docs/agents/issue-tracker.md) describes how to work with GitHub Issues.
+- [Triage labels](docs/agents/triage-labels.md) defines issue states.
+- [PR workflow](docs/agents/pull-requests.md) covers the agent account, review, and merging.
 
-Каталог [.agents/skills](.agents/skills/) содержит повторно используемые инструкции для разработки, исследования и проверки изменений.
+The [.agents/skills](.agents/skills/) directory contains reusable instructions for development, research, and review.
