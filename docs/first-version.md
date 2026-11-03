@@ -100,7 +100,11 @@ Verification must also cover inaccessible repositories, invalid invitations, age
 - Project closure, reopening, and permanent deletion.
 - Collaborative editing, approval, and separate version history for project instructions.
 - The company agent, documentation search, and a shared skills catalog.
-- Model spending tracking, a task tracker, cloud agent execution, and parallel agent orchestration.
+- Integration with an existing external task tracker through the integrations module, including displaying its tasks in the platform.
+- Model spending tracking, cloud agent execution, and parallel agent orchestration.
+
+A built-in task tracker is not currently planned. This direction may be reconsidered in the future.
+The current direction is to connect external services through the integrations module, as planned for GitHub.
 
 ## Decisions for implementation planning
 
